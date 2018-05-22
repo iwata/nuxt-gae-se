@@ -2,3 +2,4 @@
 runtime: nodejs8
 env_variables:
   NODE_ENV: production
+instance_class: F4
