@@ -1,5 +1,4 @@
 ---
 runtime: nodejs8
 env_variables:
-  NODE_ENV: production
   HOST: 0.0.0.0
