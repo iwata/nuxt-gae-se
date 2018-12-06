@@ -2,3 +2,5 @@
 runtime: nodejs10
 env_variables:
   NUXT_HOST: 0.0.0.0
+automatic_scaling:
+  min_instances: 0
