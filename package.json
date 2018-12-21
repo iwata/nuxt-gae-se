@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
+    "gcp-build": "nuxt build",
     "start": "nuxt start",
     "deploy": "nuxt build && gcloud app deploy",
     "generate": "nuxt generate",
