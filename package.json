@@ -14,7 +14,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "2.3.4"
+    "nuxt": "2.4.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.5",
