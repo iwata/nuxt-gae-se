@@ -7,6 +7,7 @@
   "scripts": {
     "dev": "nuxt -o",
     "gcp-build": "nuxt build",
+    "build": "nuxt build",
     "start": "nuxt start",
     "deploy": "nuxt build && gcloud app deploy",
     "generate": "nuxt generate",
