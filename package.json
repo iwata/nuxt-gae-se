@@ -5,7 +5,7 @@
   "author": "iwata <121048+iwata@users.noreply.github.com>",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt -o",
     "gcp-build": "nuxt build",
     "start": "nuxt start",
     "deploy": "nuxt build && gcloud app deploy",
