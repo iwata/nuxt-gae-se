@@ -15,7 +15,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "2.7.1"
+    "nuxt": "2.8.0"
   },
   "devDependencies": {
     "@nuxt/typescript": "^2.5.1",
