@@ -18,7 +18,7 @@
     "nuxt": "2.8.1"
   },
   "devDependencies": {
-    "@nuxt/typescript": "^2.5.1",
+    "@nuxt/typescript": "^2.8.1",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.15.3",
     "eslint-friendly-formatter": "^4.0.1",
