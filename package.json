@@ -19,7 +19,7 @@
     "nuxt": "2.9.1"
   },
   "devDependencies": {
-    "@nuxt/typescript-build": "^0.1.10",
+    "@nuxt/typescript-build": "^0.1.11",
     "babel-eslint": "^10.0.1",
     "eslint": "^6.0.0",
     "eslint-friendly-formatter": "^4.0.1",
