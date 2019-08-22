@@ -15,6 +15,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxt/typescript-runtime": "^0.1.2",
     "nuxt": "2.8.1"
   },
   "devDependencies": {
