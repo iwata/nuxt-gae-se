@@ -1,4 +1,6 @@
-module.exports = {
+import {Configuration} from '@nuxt/types'
+
+const nuxtConfig: Configuration = {
   /*
   ** Headers of the page
   */
@@ -17,6 +19,7 @@ module.exports = {
   ** Customize the progress bar color
   */
   loading: { color: '#3B8070' },
+  buildModules: ['@nuxt/typescript-build'],
   /*
   ** Build configuration
   */
@@ -25,7 +28,7 @@ module.exports = {
     ** Run ESLint on save
     */
     extend (config, { isDev, isClient }) {
-      if (isDev && isClient) {
+      if (config.module !== undefined && isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
@@ -36,3 +39,5 @@ module.exports = {
     }
   }
 }
+
+export default nuxtConfig
