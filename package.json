@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.1.2",
-    "nuxt": "2.8.1"
+    "nuxt": "2.9.1"
   },
   "devDependencies": {
     "@nuxt/typescript-build": "^0.1.10",
